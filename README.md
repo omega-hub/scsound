@@ -28,5 +28,5 @@ The supercollider server process will start and stop automatically with the appl
 A full reference to the sound API can be accessed here: https://github.com/uic-evl/omegalib/wiki/Sound-management
 
 ### How does it work
-The `scsound.start()` command uses the `olaynch` omegalib function to start a process with the supercollider server. The server is started through a batch file (needed to enter the correct directory before launching).
+The `scsound.start()` command uses the `olaunch` omegalib function to start a process with the supercollider server. The server is started through a batch file (needed to enter the correct directory before launching).
 The scsound module also registers an exit callback (using the python `atexit` module). The exit callback invokes another batch script which shuts down the supercollider processes using the Windows `taskkill` command.
