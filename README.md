@@ -1,7 +1,7 @@
 ## scsound
 omegalib sound support based on SuperCollider
 
-**NOTE**: this module is currently working on Windows only. On other operating systems, if you have a local SuperCollider installation, you can very easily adapt `__init.py__` to use it to start the omegalib sound server. Refer to the **How does it Work** section for info on how this module starts and stops the sound server.
+**NOTE**: this module is currently working on Windows only. On other operating systems, if you have a local SuperCollider installation, you can very easily adapt `__init.py__` to use it to start the omegalib sound server using the local SuperCollider. Refer to the **How does it Work** section for info on how this module starts and stops the sound server.
 
 ### How to Use:
 - Install as usual (enable MODULES_scsound in omegalib cmake).
