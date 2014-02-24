@@ -1,1 +1,1 @@
-install(DIRECTORY . DESTINATION omegalib/scsound PATTERN ".git" EXCLUDE)
+install(DIRECTORY . DESTINATION omegalib/modules/scsound PATTERN ".git" EXCLUDE)
