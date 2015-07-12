@@ -17,12 +17,13 @@ omegalib sound support based on SuperCollider
                 assetCacheEnabled = false;
 	};
 ```
+**NOTE**: the system/desktop-sound.cfg that comes with the omegalib distribution is already configured to play
+sound correctly on your local machine (if you ave this module installed).
 
 To run a simple example:
 ```
-> orun -s scsound/test/welcome.py -c config-with-sound.cfg
+> orun scsound/test/welcome.py -c system/desktop-sound.cfg
 ```
-where `config-with-sound.cfg` is a configuration with the sound config section mentioned above.
 
 The supercollider server process will start and stop automatically with the application.
 A full reference to the sound API can be accessed here: https://github.com/uic-evl/omegalib/wiki/Sound-management
